@@ -21,6 +21,24 @@ Students input their course details, deadlines and available study time. The AI 
 
 ![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
+This is how you create code examples:
+```
+def main():
+   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
+   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
+   fishers = [1891, 2652, 3800, 11611, 1757]
+
+   totPop = sum(pop)
+   totFish = sum(fishers)
+
+   # write your solution here
+
+   for i in range(len(countries)):
+      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+
+main()
+```
+
 ## Data sources and AI methods
 
 The project uses self-reported user input (deadlines, time availability, topics). It could apply rule-based planning and basic optimization algorithms, with potential to expand to reinforcement learning for dynamic adjustment.
