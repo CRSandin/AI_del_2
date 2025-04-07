@@ -1,65 +1,45 @@
-SmartStudy – en AI-studieplanerare
+# SmartStudy – AI-driven study planner
+
 Final project for the Building AI course
 
-Summary
-SmartStudy är en AI-baserad studieassistent som hjälper studenter att skapa en personlig och realistisk studieplan utifrån deras ämnen, deadlines och tillgänglig tid.
+## Summary
+
+SmartStudy is an AI assistant that helps students create personalized study plans based on their deadlines, workload and available time.  
 Building AI course project
 
-Background
-Många studenter har svårt att planera sina studier, särskilt när flera kurser pågår samtidigt. Det kan leda till stress, missade deadlines och sämre resultat.
-Det här problemet är väldigt vanligt, särskilt bland nybörjarstudenter eller personer som studerar på distans.
-Jag valde detta ämne eftersom jag själv vet hur svårt det kan vara att få ihop en bra plan. En AI som hjälper till att planera rätt mängd arbete varje dag skulle kunna minska stressen betydligt.
+## Background
 
-Problem som löses:
+Many students struggle with planning their studies, especially when taking multiple courses. This often leads to missed deadlines, stress and burnout. A tool like SmartStudy could improve both performance and well-being.
 
-Svårt att prioritera mellan olika uppgifter
+* difficulty prioritizing assignments  
+* lack of structured study schedule  
+* increased stress and inefficiency  
 
-Ingen tydlig överblick över vad som ska göras när
+## How is it used?
 
-Svårt att hålla sig motiverad utan struktur
+Students input their course details, deadlines and available study time. The AI generates a realistic day-by-day plan. It can be updated if something changes. The solution is useful for university and high school students, especially those studying independently or online.
 
-How is it used?
-Användaren matar in sina kurser, deadlines, ungefärlig tidsåtgång per uppgift och sin tillgängliga studietid per vecka.
-AI:n föreslår sedan en plan – till exempel: "Plugga kapitel 3 i matematik på måndag, skriv inlämning i psykologi på onsdag".
-Studenter får en tydlig, dag-för-dag-översikt och kan justera planen om något ändras.
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
-Tänkta användare: högskolestudenter, distansstudenter, eller personer som pluggar vid sidan av jobb.
-Det kan även användas av gymnasieelever med mycket på gång.
+## Data sources and AI methods
 
-Data sources and AI methods
-Datan kommer från användaren själv (t.ex. kursnamn, antal timmar per vecka, deadlines).
-AI-tekniker som kan användas:
+The project uses self-reported user input (deadlines, time availability, topics). It could apply rule-based planning and basic optimization algorithms, with potential to expand to reinforcement learning for dynamic adjustment.
 
-Schemaläggningsalgoritmer
+| Data source        | Use case                      |
+|--------------------|-------------------------------|
+| User input         | Task deadlines and workload    |
+| Scheduling logic   | Generate optimized study plan  |
 
-NLP (för att tolka uppgiftsbeskrivningar)
+## Challenges
 
-Reinforcement learning för att förbättra planeringsförslag över tid
+The project does not solve motivational issues or guarantee task completion. It relies on users providing accurate information. Ethically, it must avoid overloading users or promoting unrealistic schedules.
 
-Ingen extern datakälla krävs i början, vilket gör det enkelt att börja med.
+## What next?
 
-Challenges
-Projektet löser inte:
+The project could evolve into a mobile app with notifications and adaptive learning based on user behavior. Collaboration with students and UX designers would help refine the tool.
 
-Motivationsproblem (även om struktur kan hjälpa)
+## Acknowledgments
 
-Det krävs att användaren matar in korrekt data för att planen ska fungera
-Etiska aspekter: AI:n får inte lägga orimlig press på användaren – fokus ska vara på att skapa balans, inte press.
-
-What next?
-På sikt kan projektet utvecklas till en mobilapp med påminnelser och AI som anpassar sig efter beteende.
-Det kan även kopplas till skolplattformar och automatiskt läsa in schema eller deadlines.
-
-För att gå vidare behövs:
-
-Utvecklare med UX-kompetens
-
-Möjlighet att testa prototyp med riktiga studenter
-
-Acknowledgments
-Inspiration från:
-
-Egna erfarenheter som student
-
-Verktyg som Notion, Todoist och Google Calendar
-All text och idéer i detta projekt är original och fria att använda med hänvisning till skaparen (Camilla Rossi Sandin)
+* Inspired by common challenges among university students  
+* Idea and text written originally for the Building AI course  
+* [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
